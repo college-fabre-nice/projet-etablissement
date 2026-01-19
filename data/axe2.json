@@ -1,0 +1,66 @@
+{
+  "id": "axe2",
+  "title": "AXE 2 – FAIRE VIVRE ENSEMBLE LES VALEURS DE LA RÉPUBLIQUE",
+  "objectives": [
+    {
+      "title": "Former les citoyens de demain",
+      "actions": [
+        {
+          "id": "axe2_a1",
+          "title": "Intitulé de l’action",
+          "details": [
+            "…"
+          ]
+        }
+      ]
+    },
+	 {
+      "title": "Respecter les règles de vie en société",
+      "actions": [
+        {
+          "id": "axe2_b1",
+          "title": "Intitulé de l’action",
+          "details": [
+            "…"
+          ]
+        }
+      ]
+    },
+	 {
+      "title": "S'engager dans la vie au collège",
+      "actions": [
+        {
+          "id": "axe2_c1",
+          "title": "Intitulé de l’action",
+          "details": [
+            "…"
+          ]
+        }
+      ]
+    },
+	 {
+      "title": "S'informer de manière rigoureuse",
+      "actions": [
+        {
+          "id": "axe2_d1",
+          "title": "Intitulé de l’action",
+          "details": [
+            "…"
+          ]
+        }
+      ]
+    },
+	 {
+      "title": "Promouvoir la différence",
+      "actions": [
+        {
+          "id": "axe2_e1",
+          "title": "Intitulé de l’action",
+          "details": [
+            "…"
+          ]
+        }
+      ]
+    }
+  ]
+}

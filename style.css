@@ -1,0 +1,500 @@
+:root {
+    --green-dark: #1f7a34;
+    --green-light: #2f9e4c;
+
+    --axis1-main: #c4471c;  /* orange foncé */
+    --axis1-light: #e8691f;
+    --axis2-main: #003a70;  /* bleu foncé "institutionnel" */
+    --axis2-light: #0059b3;
+    --axis3-main: #1f7a34;  /* vert */
+    --axis3-light: #2f9e4c;
+
+    --grey-bubble: #f7f7f7;
+    --grey-border: #d0d0d0;
+    --bg: #f1f4fb;
+    --text-main: #222222;
+    --accent: #000091;  /* bleu EN */
+}
+
+/* RESET DE BASE */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Arial, sans-serif;
+    font-size: 15px;          /* taille de base légèrement réduite */
+    line-height: 1.5;         /* meilleure lisibilité sur texte dense */
+    background-color: var(--bg);
+    color: var(--text-main);
+}
+
+/* ============= BOUTON "TÉLÉCHARGER" ============= */
+
+.print-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.35rem 0.9rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: #222;
+    background-color: #f3f3f3;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    text-decoration: none;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: background-color 0.12s ease-out, border-color 0.12s ease-out;
+}
+
+.print-btn:hover {
+    background-color: #e8e8e8;
+    border-color: #a8a8a8;
+}
+
+/* ============= HEADER ============= */
+
+header {
+    width: 100%;
+    padding: 1.1rem 0 0.7rem;   /* plus de padding gauche/droite */
+    border-bottom: 1px solid #d0d8e5;
+    background: #f7fbff;
+}
+
+.header-inner {
+    width: 100%;
+    max-width: 1600px;   /* même largeur que les onglets et le panneau */
+    margin: 0 auto;      /* centré */
+    padding: 0 2rem;     /* même padding horizontal que .tabs et #axes-container */
+}
+
+/* ligne principale avec logos + titre au centre */
+.header-main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+/* bloc central titre + sous-titre */
+.header-titles {
+    flex: 1 1 auto;
+    text-align: center;
+}
+
+h1 {
+    margin: 0 0 0.2rem;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #a40000;
+    letter-spacing: 0.015em;
+}
+
+.subtitle {
+    margin: 0;
+    color: #555;
+    font-size: 0.88rem;
+    line-height: 1.4;
+}
+
+/* logos gauche / droite */
+
+.header-logo-left,
+.header-logo-right {
+    flex: 0 0 auto;
+}
+
+.logo-college,
+.logo-academie {
+    max-height: 70px;
+    width: auto;
+    display: block;
+}
+
+/* ligne avec le bouton Télécharger */
+
+.header-actions {
+    margin-top: 0.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+/* ============= TABS (AXES) ============= */
+
+/* Bande de fond des onglets */
+.tabs {
+    width: 100%;
+    max-width: 1600px;      /* largeur max du contenu */
+    margin: 0 auto;         /* centré */
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 0.4rem 2rem 0;
+    background: #f1f4fb;
+    gap: 0.5rem;
+    border-bottom: none;
+    position: relative;
+    z-index: 2;             /* au-dessus du panneau pour masquer la bordure */
+}
+
+/* Ligne horizontale continue sous tous les onglets */
+.tabs::after {
+    content: "";
+    position: absolute;
+    left: 2rem;              /* on colle à la largeur max de .tabs */
+    right: 2rem;
+    bottom: 0;
+    height: 1px;
+    background: #d0d8e5;
+}
+
+/* Onglets génériques */
+.tab-btn {
+    flex: 1 1 0;
+    min-width: 0;
+    border: none;                     /* pas de bordure pour les inactifs */
+    background: #c0cdef;              /* bleu plus foncé pour les inactifs */
+    padding: 0.55rem 0.4rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+    border-radius: 6px 6px 0 0;
+    text-align: center;
+    white-space: normal;
+    color: #233;
+    position: relative;               /* pour le ::after de l’actif */
+}
+
+/* Onglet actif : coiffe blanche avec bordure top + côtés, pas en bas */
+.tab-btn.active {
+    background: #ffffff;
+    color: var(--accent);
+    font-weight: 600;
+
+    border: 1px solid #d0d8e5;
+    border-bottom: none;              /* pas de trait sous le texte */
+    border-radius: 6px 6px 0 0;
+
+    position: relative;
+    z-index: 3;                       /* au-dessus de tout, y compris la bordure du panneau */
+}
+
+/* L’onglet actif "efface" la ligne juste sous lui */
+.tab-btn.active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -1px;
+    height: 2px;
+    background: #ffffff;              /* même couleur que le panneau */
+}
+
+.tab-btn:not(.active):hover {
+    background-color: #f3f6fc;
+}
+
+/* ============= CONTENU AXES ============= */
+
+#axes-container {
+    width: 100%;
+    max-width: 1600px;      /* même largeur max que les onglets */
+    margin: 0 auto;         /* centré sous les onglets */
+    padding: 0 2rem 2rem;
+}
+
+#axes-container > .tab-content {
+    background: #ffffff;
+    border: 1px solid #d0d8e5;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    padding: 1rem 1.5rem 1.4rem;   /* un peu moins d’air, plus “document” */
+}
+
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Titre d’axe : on garde le style au cas où,
+   mais il est masqué pour l’instant. */
+.axis-title {
+    display: none;
+    font-weight: 700;
+    font-size: 1.15rem;
+    margin-bottom: 0.4rem;
+    color: #003366;
+}
+
+.axis-subtitle {
+    font-size: 0.88rem;
+    color: #555;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+/* ============= COLONNES OBJECTIFS ============= */
+
+/* Par défaut : 5 colonnes (axes 2 et 3) */
+.columns {
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 1.2rem;                     /* légèrement resserré */
+}
+
+/* Axe 1 : 6 objectifs → 6 colonnes */
+#axe1 .columns {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+/* Tablette paysage : 3 colonnes */
+@media (max-width: 1100px) {
+    .columns {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+/* Mobile : colonnes empilées */
+@media (max-width: 700px) {
+    .columns {
+        grid-template-columns: 1fr;
+    }
+}
+
+.objective {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;                     /* un peu moins d’espace vertical */
+}
+
+/* ============= BULLES D'OBJECTIFS ============= */
+
+.objective-title {
+    padding: 0.7rem 0.9rem;
+    border-radius: 10px;
+    font-size: 0.94rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+    text-align: center;
+
+    /* Hauteur fixe pour que toutes les bulles soient identiques */
+    height: 72px;
+    line-height: 1.3;
+    overflow: hidden;          /* on coupe au-delà de ~2 lignes */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.16);
+}
+
+/* Axe 1 : orange foncé */
+#axe1 .objective-title {
+    background: linear-gradient(135deg, var(--axis1-main), var(--axis1-light));
+}
+
+/* Axe 2 : bleu foncé */
+#axe2 .objective-title {
+    background: linear-gradient(135deg, var(--axis2-main), var(--axis2-light));
+}
+
+/* Axe 3 : vert */
+#axe3 .objective-title {
+    background: linear-gradient(135deg, var(--axis3-main), var(--axis3-light));
+}
+
+/* ============= ACTIONS ============= */
+
+.actions {
+    padding-left: 0.85rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.55rem;
+    border-left-width: 3px;
+    border-left-style: solid;
+}
+
+/* Couleur barre gauche selon l’axe */
+#axe1 .actions {
+    border-left-color: var(--axis1-light);
+}
+
+#axe2 .actions {
+    border-left-color: var(--axis2-light);
+}
+
+#axe3 .actions {
+    border-left-color: #4a9e5c;
+}
+
+.action-bubble {
+    background-color: var(--grey-bubble);
+    border: 1px solid var(--grey-border);
+    border-radius: 9px;
+    padding: 0.45rem 0.8rem;
+    font-size: 0.88rem;
+    line-height: 1.45;
+    cursor: pointer;
+    transition: background-color 0.12s ease-out, border-color 0.12s ease-out;
+}
+
+.action-bubble:hover {
+    background-color: #ffffff;
+    border-color: #bbbbbb;
+}
+
+.hint {
+    margin-top: 0.6rem;
+    font-size: 0.78rem;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #777;
+}
+
+/* ============= MODALE ============= */
+
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.modal-backdrop.visible {
+    display: flex;
+}
+
+.modal {
+    background: #ffffff;
+    max-width: 700px;
+    width: 95%;
+    max-height: 85vh;
+    border-radius: 12px;
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35);
+    padding: 1.2rem 1.4rem 1.3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.75rem;
+    align-items: flex-start;
+}
+
+.modal-title {
+    font-size: 0.98rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+}
+
+.modal-close {
+    border: none;
+    background: none;
+    font-size: 1.4rem;
+    line-height: 1;
+    cursor: pointer;
+    color: #555;
+}
+
+.modal-body {
+    overflow: auto;
+    padding-right: 0.25rem;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+.modal-body ul {
+    margin: 0.3rem 0 0 1.2rem;
+    padding-left: 0;
+}
+
+.modal-body li {
+    margin-bottom: 0.35rem;
+}
+
+/* ============= RESPONSIVE ============= */
+
+@media (max-width: 900px) {
+    header {
+        padding: 1rem 1rem 0.6rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .subtitle {
+        font-size: 0.84rem;
+    }
+
+    #axes-container {
+        padding: 1rem 1rem 1.6rem;
+    }
+
+    .axis-title {
+        font-size: 1.05rem;
+    }
+
+    .axis-subtitle {
+        font-size: 0.8rem;
+    }
+
+    .action-bubble {
+        font-size: 0.88rem;
+        padding: 0.45rem 0.75rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .tabs {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding: 0.4rem 1rem 0.4rem;
+        gap: 0.35rem;
+    }
+
+    .tab-btn {
+        flex: none;
+        width: 100%;
+        border-radius: 6px;
+        border-bottom: 1px solid #d0d8e5;
+        text-align: left;
+    }
+
+    .columns {
+        gap: 1rem;
+    }
+
+    .objective-title {
+        font-size: 0.9rem;
+        padding: 0.6rem 0.7rem;
+        min-height: 56px;
+    }
+
+    .modal {
+        max-width: 100%;
+        width: 100%;
+        max-height: 100vh;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .modal-body {
+        font-size: 0.88rem;
+    }
+}

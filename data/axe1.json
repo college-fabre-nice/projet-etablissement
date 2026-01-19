@@ -1,0 +1,133 @@
+{
+  "id": "axe1",
+  "title": "AXE 1 – ACCOMPAGNER CHAQUE ÉLÈVE VERS LA RÉUSSITE",
+  "objectives": [
+    {
+      "title": "Consolider un socle commun de compétences et connaissances",
+      "actions": [
+        {
+          "id": "axe1_a1",
+          "title": "Maîtriser les fondamentaux",
+          "details": [
+            "Diagnostic à partir des évaluations nationales de septembre et remédiation à l'issue de ce temps."
+          ]
+        },
+        {
+          "id": "axe1_a2",
+          "title": "Maîtriser les différents langages et codes (comprendre, interagir et conquérir une autonomie)",
+          "details": [
+			"Langages corporels.",
+			"Écrit et oral.",
+			"Lecture (le quart de lecture obligatoire et sur un jour de semaine différent).",
+			"Codes sociaux.",
+			"Interactions langagières."
+          ]
+        },
+		{
+          "id": "axe1_a3",
+          "title": "Développer des situations d'écriture dans toutes les disciplines",
+          "details": [
+			"Développer les projets d'écriture.",
+			"Ritualiser les temps de lecture.",
+			"Valoriser les écrits des élèves.",
+			"Ateliers d'écriture organisés par le labo Lettres."
+          ]
+        },
+		{
+          "id": "axe1_a4",
+          "title": "Permettre à l'élève de maîtriser l'expression orale",
+          "details": [
+			"Exercer les élèves pour travailler l'éloquence (projet « Lettres à... » avec le TNN, concours de l'éloquence, atelier théâtre) et la prise de parole maitrisée + chorale."
+          ]
+        },
+		{
+          "id": "axe1_a5",
+          "title": "Améliorer la fluence et l'oralisation de la lecture",
+          "details": [
+			"Bibliothèque sonore : Réseau-Lu."
+          ]
+        },
+		{
+          "id": "axe1_a6",
+          "title": "Maîtriser les langages au service de la construction de l'esprit critique",
+          "details": [
+			"Permettre la mise en place de situation pédagogiques favorisant le développement d'une démarche scientifique.",
+			"Développer l'esprit critique en s'appuyant sur l'éducation aux médias et à l'information.",
+			"Restaurer le lien entre l'espace CDI et les élèves."
+          ]
+        },
+		{
+          "id": "axe1_a7",
+          "title": "Mettre en place des rituels et mutualiser des pratiques pour améliorer les apprentissages",
+          "details": [
+			"Développer des rituels transdisciplinaires (attitudes et savoir-être du collégien, codes couleurs, rituels communs de début et fins de cours, fiche méthodes communes et pictogrammes communs).",
+			"Ritualiser des exercices sur l'implicite.",
+			"Créer une banque d'énoncés pour travailler l'implicite.",
+			"Développer la maîtrise du langage informatique.",
+			"Développer la faculté de juger et l'esprit critique."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Individualiser, différencier",
+      "actions": [
+        {
+          "id": "axe1_b1",
+          "title": "Autre action",
+          "details": [
+            "…"
+          ]
+        }
+      ]
+    },
+	{
+      "title": "Encourager l’égalité des chances",
+      "actions": [
+        {
+          "id": "axe1_c1",
+          "title": "Autre action",
+          "details": [
+            "…"
+          ]
+        }
+      ]
+    },
+	{
+      "title": "Accompagner les élèves en situation de désengagement scolaire",
+      "actions": [
+        {
+          "id": "axe1_d1",
+          "title": "Autre action",
+          "details": [
+            "…"
+          ]
+        }
+      ]
+    },
+	{
+      "title": "Développer une culture commune de l'excellence",
+      "actions": [
+        {
+          "id": "axe1_e1",
+          "title": "Autre action",
+          "details": [
+            "…"
+          ]
+        }
+      ]
+    },
+	{
+      "title": "Vie scolaire, moteur de la réussite de chacun",
+      "actions": [
+        {
+          "id": "axe1_f1",
+          "title": "Autre action",
+          "details": [
+            "…"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "id": "axe3",
+  "title": "AXE 3 – S'OUVRIR À LA CULTURE, AU MONDE ET À L'AVENIR",
+  "objectives": [
+    {
+      "title": "Favoriser l’accès à la culture pour tous les élèves",
+      "actions": [
+        {
+          "id": "axe3_a1",
+          "title": "Déployer une ambition culturelle forte et inclusive",
+          "details": [            
+			"Développer des parcours artistiques et culturels variés (arts plastiques, musique, théâtre, littérature, cinéma, danse, patrimoine, cinéma, CSTI, EMI, ...).",
+			"Intensifier les partenariats avec les structures culturelles et associations agréées locales : médiathèques, musées, centres d'art, théâtre municipal, associations culturelles, ...",
+			"Renforcer la fréquentation des événements culturels : expositions, spectacles vivants, festivals, ...",
+			"Encourager la créativité par la mise en place d’ateliers (cinéma, photographie, arts numériques, danse, théâtre, ...).",
+			"Généraliser la participation aux prix littéraires (Paul Langevin, Gallimard Jeunesse).",
+			"Développer un « esprit critique » face aux productions culturelles.",
+			"Créer un parcours annuel : une sortie et/ou voyage par niveau.",
+			"Favoriser l'accès à une culture sourde pour tous les élèves (entendants + malentendants + personnels) > accès LSF, chansignes, théâtre bilingue, associations, ...",
+			"Le CDI pourrait être disponible et ouvert à tous les enseignants afin d'en profiter plus simplement et d'exploiter la richesse du lieu avec les élèves en proposant des séances oralisées de lecture, des moments de débat et de jeux de piste autour des différents genres littéraires proposés dans ce centre documentaire qui est en principe, le coeur culturel d'un établissement scolaire.",
+			"Ouvrir le collège à des initiatives extérieures : résidences d’artistes, projets associatifs, rencontres scientifiques, interventions d'écrivains et de conteurs, ..."			
+          ]
+        },
+        {
+          "id": "axe3_a2",
+          "title": "Référencer les actions EAC et établir des partenariats",
+          "details": [
+            "Recenser et structurer les projets EAC déjà existants au sein de l’établissement.",
+            "Développer des partenariats avec les structures culturelles locales (théâtres, musées, médiathèques, etc.).",
+            "Mettre à disposition des équipes un calendrier partagé des actions EAC."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Renforcer les fondamentaux en donnant du sens et en valorisant les réussites",
+      "actions": [
+        {
+          "id": "axe3_b1",
+          "title": "Redonner du sens aux apprentissages artistiques",
+          "details": [
+            "Articuler les projets artistiques avec les programmes disciplinaires.",
+            "Permettre aux élèves de comprendre les enjeux des œuvres abordées (contexte historique, social, culturel).",
+            "Favoriser les projets interdisciplinaires autour des arts."
+          ]
+        },
+        {
+          "id": "axe3_b2",
+          "title": "Évaluer et mettre en valeur les créations",
+          "details": [
+            "Prévoir des moments d’exposition, de représentation ou de diffusion des productions d’élèves.",
+            "Mettre en place des modalités d’évaluation valorisant l’engagement, la créativité et la coopération.",
+            "Impliquer les familles et la communauté éducative dans la valorisation des projets."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Favoriser le bien-être et la curiosité",
+      "actions": [
+        {
+          "id": "axe3_c1",
+          "title": "Promouvoir la culture scientifique, technique et industrielle",
+          "details": [
+            "Organiser des rencontres avec des professionnels des domaines scientifiques, techniques et industriels.",
+            "Proposer des visites de lieux de culture scientifique (musées, centres de recherche, entreprises partenaires).",
+            "Soutenir la participation à des concours, défis ou clubs scientifiques."
+          ]
+        },
+        {
+          "id": "axe3_c2",
+          "title": "Encourager la culture EAC (Éducation Artistique & Culturelle)",
+          "details": [
+            "Diversifier les disciplines artistiques abordées (musique, théâtre, arts plastiques, danse, etc.).",
+            "Favoriser la participation des élèves à des sorties culturelles régulières.",
+            "Soutenir les projets culturels portés par les équipes pédagogiques."
+          ]
+        },
+        {
+          "id": "axe3_c3",
+          "title": "Favoriser la culture EDD (Éducation Développement Durable)",
+          "details": [
+            "Intégrer les enjeux du développement durable dans les séquences d’enseignement.",
+            "Mettre en place des projets concrets au sein de l’établissement (tri des déchets, jardin pédagogique, etc.).",
+            "Sensibiliser les élèves aux questions de citoyenneté et de responsabilité environnementale."
+          ]
+        },
+        {
+          "id": "axe3_c4",
+          "title": "Intensifier la culture sportive",
+          "details": [
+            "Valoriser la pratique sportive dans et hors temps scolaire.",
+            "Soutenir les associations sportives de l’établissement.",
+            "Mettre en avant les bienfaits du sport sur la santé, le bien-être et la cohésion entre élèves."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cultiver l’ouverture interculturelle",
+      "actions": [
+        {
+          "id": "axe3_d1",
+          "title": "S’ouvrir au monde",
+          "details": [
+            "Développer des projets d’échanges ou de correspondances avec des établissements étrangers.",
+            "Favoriser l’apprentissage et la valorisation des langues vivantes par des projets concrets (journée européenne, défis linguistiques, etc.).",
+            "Sensibiliser les élèves à la diversité des cultures : journées thématiques, interventions d’associations, cuisine du monde, etc.",
+            "Introduire des ressources pédagogiques mettant en lumière la richesse culturelle mondiale (cinéma international, littérature étrangère, histoire des arts de toutes époques et de tous continents, etc.).",
+            "Intégrer l’éducation aux médias et à l’information pour comprendre la circulation mondiale de l’information."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Accompagner la construction du projet d’orientation",
+      "actions": [
+        {
+          "id": "axe3_e1",
+          "title": "Renforcer la coopération avec des acteurs de terrain",
+          "details": [
+            "Multiplier les rencontres avec des professionnels, anciens élèves et partenaires institutionnels.",
+            "Organiser des visites d’entreprises, de lycées, de CFA ou d’organismes de formation.",
+            "Soutenir les temps forts autour de l’orientation (forums, semaines thématiques, interventions de spécialistes)."
+          ]
+        }
+      ]
+    }
+  ]
+}
