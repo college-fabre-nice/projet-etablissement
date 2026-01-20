@@ -11,7 +11,7 @@
     <div class="header-inner">
         <div class="header-main">
             <div class="header-logo-left">
-                <img src="img/logo-college.png" class="logo-college" alt="Collège Jean-Henri Fabre">
+                <img src="img/logo-academie.png" class="logo-academie" alt="Académie de Nice">
             </div>
 
             <div class="header-titles">
@@ -29,27 +29,17 @@
             </div>
 
             <div class="header-logo-right">
-                <img src="img/logo-academie.png" class="logo-academie" alt="Académie de Nice">
+                <img src="img/logo-college.png" class="logo-college" alt="Collège Jean-Henri Fabre">
             </div>
         </div>
     </div>
 </header>
 
+<!-- Onglets des 3 axes (injectés par app.js) -->
+<div class="tabs" id="tabs"></div>
 
-
-<!-- Onglets des 3 axes (remplis par app.js ou statiquement selon ton implémentation) -->
-<div class="tabs" id="tabs">
-    <!-- Ex : si tu veux les mettre en dur :
-    <button class="tab-btn active" data-axis="axe1">AXE 1 – ACCOMPAGNER CHAQUE ÉLÈVE VERS LA RÉUSSITE</button>
-    <button class="tab-btn" data-axis="axe2">AXE 2 – FAIRE VIVRE ENSEMBLE LES VALEURS DE LA RÉPUBLIQUE</button>
-    <button class="tab-btn" data-axis="axe3">AXE 3 – S’OUVRIR À LA CULTURE, AU MONDE ET À L’AVENIR</button>
-    -->
-</div>
-
-<!-- Conteneur principal des axes -->
-<main id="axes-container">
-    <!-- app.js crée / remplit les .tab-content ici -->
-</main>
+<!-- Conteneur principal des axes (contenu généré par app.js) -->
+<main id="axes-container"></main>
 
 <!-- Modale pour le détail des actions -->
 <div class="modal-backdrop" id="modal-backdrop">
