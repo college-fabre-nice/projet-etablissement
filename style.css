@@ -499,29 +499,6 @@ h1 {
     }
 }
 
-/* ======= CORRECTIONS HEADER MOBILE ======= */
-@media (max-width: 900px) {
-    .header-main {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 0.4rem;
-    }
-
-    .header-logo-left,
-    .header-logo-right {
-        margin-bottom: 0.3rem;
-    }
-
-    .header-titles {
-        text-align: center;
-    }
-
-    .header-actions {
-        margin-top: 0.5rem;
-    }
-}
-
 /* ======= COLONNES OBJECTIFS : PILE SUR MOBILE ======= */
 @media (max-width: 700px) {
     .columns,
@@ -539,5 +516,48 @@ h1 {
         padding: 0.6rem 0.7rem;
         min-height: 60px;      /* hauteur minimale identique */
         line-height: 1.3;
+    }
+}
+
+/* ===== HEADER MOBILE : LOGOS EN HAUT, TITRE EN DESSOUS ===== */
+@media (max-width: 900px) {
+
+    .header-inner {
+        padding: 0 1rem;
+    }
+
+    .header-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "logo-left logo-right"
+            "title title";
+        row-gap: 0.4rem;
+        align-items: center;
+    }
+
+    .header-logo-left {
+        grid-area: logo-left;
+        justify-self: flex-start;
+    }
+
+    .header-logo-right {
+        grid-area: logo-right;
+        justify-self: flex-end;
+    }
+
+    .header-titles {
+        grid-area: title;
+        text-align: center;
+    }
+
+    .logo-college,
+    .logo-academie {
+        max-height: 52px;   /* ajustable */
+    }
+
+    .header-actions {
+        margin-top: 0.5rem;
+        justify-content: center;
     }
 }
