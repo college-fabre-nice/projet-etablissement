@@ -9,62 +9,53 @@
           "id": "axe1_a1",
           "title": "Maîtriser les fondamentaux",
           "details": [
-            "Diagnostic à partir des évaluations nationales de septembre et remédiation à l'issue de ce temps."
+            "Analyser les résultats des évaluations nationales de début d'année afin d'identifier les besoins des élèves, organiser des temps de remédiation ciblés et installer une progression adaptée."
           ]
         },
         {
           "id": "axe1_a2",
           "title": "Maîtriser les différents langages et codes (comprendre, interagir et conquérir une autonomie)",
           "details": [
-			"Langages corporels.",
-			"Écrit et oral.",
-			"Lecture (le quart de lecture obligatoire et sur un jour de semaine différent).",
-			"Codes sociaux.",
-			"Interactions langagières."
+            "L'établissement accompagne les élèves dans la maîtrise des langages essentiels : langage corporel, expression orale, expression écrite, lecture, et codes sociaux.",
+            "Il s'agit de développer la capacité à comprendre, interagir, structurer sa pensée et gagner en autonomie. La mise en place d'un quart d'heure de lecture hebdomadaire contribue à renforcer la compréhension, le vocabulaire et le goût de lire. Les échanges, débats et travaux collaboratifs favorisent la confiance en soi et l'apprentissage d'une communication respectueuse et efficace."
           ]
         },
-		{
+        {
           "id": "axe1_a3",
           "title": "Développer des situations d'écriture dans toutes les disciplines",
           "details": [
-			"Développer les projets d'écriture.",
-			"Ritualiser les temps de lecture.",
-			"Valoriser les écrits des élèves.",
-			"Ateliers d'écriture organisés par le labo Lettres."
+            "Ritualiser les temps de lecture, développer des pratiques régulières de lecture et d'écriture dans toutes les disciplines, valoriser les productions des élèves et proposer des ateliers créatifs pour enrichir l'expression écrite (ateliers d'écriture organisés par le Labo' Lettres)."
           ]
         },
-		{
+        {
           "id": "axe1_a4",
           "title": "Permettre à l'élève de maîtriser l'expression orale",
           "details": [
-			"Exercer les élèves pour travailler l'éloquence (projet « Lettres à... » avec le TNN, concours de l'éloquence, atelier théâtre) et la prise de parole maitrisée + chorale."
+            "Développer la prise de parole par des projets tels que Lettres à… (TNN – théâtre), le concours de l'éloquence, l'atelier Théâtre et la chorale. Ces dispositifs permettent d'améliorer l'aisance, la structuration du discours, la confiance en soi et la capacité à s'exprimer devant un public."
           ]
         },
-		{
+        {
           "id": "axe1_a5",
           "title": "Améliorer la fluence et l'oralisation de la lecture",
           "details": [
-			"Bibliothèque sonore : Réseau-Lu."
+            "Mettre en place une bibliothèque sonore dans le cadre du Réseau-LU (dispositif lecture), où les élèves réalisent des podcasts présentant des œuvres et lisent des extraits à voix haute. Ce travail renforce la lecture expressive, l'analyse, la compréhension, le travail coopératif et l'usage du numérique."
           ]
         },
-		{
+        {
           "id": "axe1_a6",
           "title": "Maîtriser les langages au service de la construction de l'esprit critique",
           "details": [
-			"Permettre la mise en place de situation pédagogiques favorisant le développement d'une démarche scientifique.",
-			"Développer l'esprit critique en s'appuyant sur l'éducation aux médias et à l'information.",
-			"Restaurer le lien entre l'espace CDI et les élèves."
+            "Développer l'esprit critique en s'appuyant sur l'Éducation aux Médias et à l'Information (EMI). Mettre en œuvre des situations scientifiques, médiatiques et documentaires permettant aux élèves de questionner, comparer, vérifier et argumenter, tout en renouant le lien avec le CDI comme espace ressource."
           ]
         },
-		{
+        {
           "id": "axe1_a7",
           "title": "Mettre en place des rituels et mutualiser des pratiques pour améliorer les apprentissages",
           "details": [
-			"Développer des rituels transdisciplinaires (attitudes et savoir-être du collégien, codes couleurs, rituels communs de début et fins de cours, fiche méthodes communes et pictogrammes communs).",
-			"Ritualiser des exercices sur l'implicite.",
-			"Créer une banque d'énoncés pour travailler l'implicite.",
-			"Développer la maîtrise du langage informatique.",
-			"Développer la faculté de juger et l'esprit critique."
+            "Développer des rituels transdisciplinaires (attitudes et savoir-être du collégien, codes couleurs, rituels communs de début et fins de cours, fiches méthodes communes et pictogrammes communs) ;",
+            "Ritualiser des exercices sur l'implicite et créer une banque d'énoncés pour travailler l'implicite ;",
+            "Développer la faculté de juger et l'esprit critique ;",
+            "Structurer des habitudes communes entre disciplines afin de faciliter la compréhension des consignes, renforcer l'autonomie, améliorer les méthodes de travail et initier les élèves aux usages et aux langages informatiques."
           ]
         }
       ]
@@ -74,57 +65,162 @@
       "actions": [
         {
           "id": "axe1_b1",
-          "title": "Autre action",
+          "title": "Développer des pédagogies innovantes et de réseaux",
           "details": [
-            "…"
+            "Labomaths (Réseau Dettloff) : développer une culture commune de la maternelle à la Terminale et limiter les ruptures scolaires dans les classes charnières ;",
+            "Classes coopératives : favoriser l'entraide, l'autonomie et le climat scolaire ;",
+            "Classes autonomes : s'inspirer de Freinet et Montessori pour renforcer la responsabilité et le plan de travail individuel ;",
+            "Projets interdisciplinaires (Lettres à …) : croiser les disciplines autour d'un objectif commun ;",
+            "Pédagogie de projet : conduire des productions finales variées (orales, écrites, numériques) ;",
+            "Usages d'outils numériques : utiliser Pearltrees, LearningApps, Genially ou Eléa pour la remédiation, l'entraînement ou le travail à la maison."
+          ]
+        },
+        {
+          "id": "axe1_b2",
+          "title": "Favoriser l'inclusion",
+          "details": [
+            "Organiser la prise en charge des élèves malentendants, développer l'initiation à la langue des signes (APAJH), renforcer le rôle des AESH auprès des élèves à besoins spécifiques et initier un réseau orthophonie/neuro-psychologie afin de faciliter les bilans et l'accompagnement."
+          ]
+        },
+        {
+          "id": "axe1_b3",
+          "title": "Organiser le temps et l'espace pour apprendre autrement et réussir",
+          "details": [
+            "Adapter les conditions d'apprentissage (espaces, temps, supports), poursuivre les partenariats péri-éducatifs (La Semeuse), coordonner les dispositifs de remédiation (Devoirs faits, Bureau d'Aide Rapide) et organiser un Labo' Lettres flexible pour les élèves à besoins éducatifs."
+          ]
+        },
+        {
+          "id": "axe1_b4",
+          "title": "Prendre en charge de façon personnalisée la préparation des examens en fin d'année",
+          "details": [
+            "Accompagner les élèves dans la préparation du CFG et du DNB (général ou professionnel), renforcer l'oral et permettre à chacun de valoriser son parcours (artistique, citoyen, etc.) lors des épreuves."
+          ]
+        },
+        {
+          "id": "axe1_b5",
+          "title": "Préparer les parcours artistiques et citoyens pour l'oral du DNB",
+          "details": [
+            "Permettre aux élèves de tous profils de bonifier leurs résultats lors de cet examen."
+          ]
+        },
+        {
+          "id": "axe1_b6",
+          "title": "Différencier les apprentissages grâce à l'IA",
+          "details": [
+            "Utiliser l'Intelligence Artificielle (MagicSchool, Nolej AI) pour générer des exercices adaptés, analyser les besoins, produire des activités différenciées et suivre les progrès. L'enseignant garde la main sur les contenus et choisit les modalités de diffusion (Genially, PDF, Moodle, Classroom, etc.)."
           ]
         }
       ]
     },
-	{
-      "title": "Encourager l’égalité des chances",
+    {
+      "title": "Encourager l'égalité des chances",
       "actions": [
         {
           "id": "axe1_c1",
-          "title": "Autre action",
+          "title": "Rendre l'élève acteur de ses apprentissages",
           "details": [
-            "…"
+            "Renforcer la synergie entre SEGPA et collège général, développer la relation à l'effort, valoriser l'image de soi et déployer le plan d'orientation sur le cycle 4 (Plateforme Avenir(s)) afin d'aider chaque élève à construire un projet choisi."
+          ]
+        },
+        {
+          "id": "axe1_c2",
+          "title": "Accroître la motivation et l'ambition des élèves",
+          "details": [
+            "Encourager l'engagement dans un projet de formation professionnelle exigeant, valoriser les filières plus lointaines (internats) et développer la mobilité scolaire et sociale."
+          ]
+        },
+        {
+          "id": "axe1_c3",
+          "title": "Collaborer avec les familles pour renforcer l'implication positive dans la scolarité",
+          "details": [
+            "Renforcer le dialogue par des actions collectives (soirée des parents), clarifier les attentes via les rencontres parents-professeurs, travailler sur le climat scolaire avec les familles, proposer un café des parents et organiser des formations à PRONOTE (OEPRE) pour faciliter le suivi scolaire."
+          ]
+        },
+        {
+          "id": "axe1_c4",
+          "title": "Travailler sur le long terme pour la mise en œuvre des protocoles spécifiques",
+          "details": [
+            "Organiser la mise en place des PPS / PAI / PAP et des aménagements d'examens (plateforme Amex) dans une logique anticipée et coordonnée."
+          ]
+        },
+        {
+          "id": "axe1_c5",
+          "title": "Utiliser des leviers comme le dispositif « Trouve Ta Voie » (ESSEC)",
+          "details": [
+            "S'appuyer sur ce dispositif d'égalité des chances porté par l'ESSEC pour accompagner l'orientation, développer la connaissance de soi, favoriser la prise d'initiative et renforcer l'ambition scolaire."
+          ]
+        },
+        {
+          "id": "axe1_c6",
+          "title": "Développer l'École ouverte élèves et l'École ouverte parents",
+          "details": [
+            "Ouvrir l'établissement aux élèves et aux familles en proposant des temps de participation, d'échanges et de projets communs afin de renforcer le partenariat éducatif."
           ]
         }
       ]
     },
-	{
+    {
       "title": "Accompagner les élèves en situation de désengagement scolaire",
       "actions": [
         {
           "id": "axe1_d1",
-          "title": "Autre action",
+          "title": "Favoriser le tutorat",
           "details": [
-            "…"
+            "Accompagner les élèves qui en ont besoin, réduire l'isolement, rassurer et désamorcer les tensions."
+          ]
+        },
+        {
+          "id": "axe1_d2",
+          "title": "Mettre en œuvre le dispositif Re(sources) contre le décrochage passif",
+          "details": [
+            "Accompagner des élèves de 3e en perte de sens scolaire autour de trois axes : orientation, renforcement des apprentissages et revalorisation collective. Le dispositif s'appuie sur une équipe pluridisciplinaire et prépare le DNB professionnel ou le CFG."
+          ]
+        },
+        {
+          "id": "axe1_d3",
+          "title": "Favoriser la mise en place de dispositifs de remédiation pour le cycle 3",
+          "details": [
+            "Développer un accompagnement ciblé pour les élèves en difficulté sur les fondamentaux (lecture, numération) en fin de cycle 3, afin de garantir une transition réussie vers la 6e. S'appuyer sur une identification précoce, une coordination interdegrés et des pratiques différenciées pour consolider les compétences essentielles et prévenir le décrochage."
           ]
         }
       ]
     },
-	{
+    {
       "title": "Développer une culture commune de l'excellence",
       "actions": [
         {
           "id": "axe1_e1",
-          "title": "Autre action",
+          "title": "Déployer des cursus spécifiques",
           "details": [
-            "…"
+            "Déployer la Classe Europe dès la 6e, les Langues et Cultures Européennes en 4e-3e, la DNL Histoire en italien et les classes latinistes afin d'approfondir les compétences linguistiques et culturelles."
           ]
-        }
-      ]
-    },
-	{
-      "title": "Vie scolaire, moteur de la réussite de chacun",
-      "actions": [
+        },
         {
-          "id": "axe1_f1",
-          "title": "Autre action",
+          "id": "axe1_e2",
+          "title": "Préparer et participer à de nombreux concours",
           "details": [
-            "…"
+            "Participer à des concours académiques, nationaux ou culturels (Algoréa, Alkindi, Castor Informatique, Rallye Maths, CNRD, « 180 secondes pour convaincre », Éloquence en italien, Prix Paul Langevin, Cine'Exquis, PHOTON, Bulles de Mémoire, Certification Pix) afin de stimuler l'ambition et la curiosité intellectuelle."
+          ]
+        },
+        {
+          "id": "axe1_e3",
+          "title": "Offrir des prolongements de cours à la carte",
+          "details": [
+            "Proposer dans le cadre du Bureau d'Aide Rapide un prolongement pédagogique pour les élèves les plus motivés, permettant d'aller plus loin dans certaines disciplines selon leurs besoins ou envies."
+          ]
+        },
+        {
+          "id": "axe1_e4",
+          "title": "Encourager nos élèves à présenter des candidatures dans les internats et filières d'excellence",
+          "details": [
+            "Accompagner les élèves dans leurs candidatures, offrir un cadre sécurisant en fin de cycle 4 et valoriser le dépassement de soi."
+          ]
+        },
+        {
+          "id": "axe1_e5",
+          "title": "Offrir une diversité d'options",
+          "details": [
+            "Proposer des options (sport, théâtre, musique, Europe, informatique, sciences, classe coopérative) permettant de répondre aux intérêts et talents des élèves, d'enrichir leurs parcours et de renforcer leur motivation dès l'entrée au collège. Favoriser l'engagement, la curiosité et une intégration positive dans un climat scolaire stimulant, tout en s'inscrivant dans les objectifs des programmes."
           ]
         }
       ]

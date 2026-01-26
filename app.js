@@ -184,35 +184,26 @@ document.addEventListener("DOMContentLoaded", async () => {
         modalBackdrop.classList.remove("visible");
     }
 
-    function openModal(objective, action, axis) {
-        if (!modalBackdrop || !modalTitleEl || !modalBodyEl) return;
+	function openModal(objective, action, axis) {
+		if (!modalBackdrop || !modalTitleEl || !modalBodyEl) return;
 
-        // Titre = titre de l’action
-        modalTitleEl.textContent = action.title || "";
+		modalTitleEl.textContent = action.title || "";
+		modalBodyEl.innerHTML = "";
 
-        // Contenu = détails de l’action
-        modalBodyEl.innerHTML = "";
+		const details = action.details;
 
-        if (Array.isArray(action.details)) {
-            const ul = document.createElement("ul");
-            action.details.forEach((item) => {
-                const li = document.createElement("li");
-                li.textContent = item;
-                ul.appendChild(li);
-            });
-            modalBodyEl.appendChild(ul);
-        } else if (typeof action.details === "string") {
-            const p = document.createElement("p");
-            p.textContent = action.details;
-            modalBodyEl.appendChild(p);
-        } else {
-            const p = document.createElement("p");
-            p.textContent = "Aucun détail supplémentaire n’a été renseigné pour cette action.";
-            modalBodyEl.appendChild(p);
-        }
+		if (Array.isArray(details)) {
+			// Plusieurs lignes de détail = <br/>
+			modalBodyEl.innerHTML = details.join("<br/>");
+		} else if (typeof details === "string") {
+			modalBodyEl.innerHTML = details;
+		} else {
+			modalBodyEl.textContent = "Aucun détail supplémentaire n’a été renseigné pour cette action.";
+		}
 
-        modalBackdrop.classList.add("visible");
-    }
+		modalBackdrop.classList.add("visible");
+	}
+
 
     // Fermeture de la modale
     if (modalCloseBtn) {

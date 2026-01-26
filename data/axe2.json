@@ -7,57 +7,218 @@
       "actions": [
         {
           "id": "axe2_a1",
-          "title": "Intitulé de l’action",
+          "title": "Découvrir le fonctionnement démocratique",
           "details": [
-            "…"
+            "Sensibiliser les élèves au fonctionnement de la démocratie et des institutions via l'intervention d'élus (commune, département, députés…). Organiser, lorsque possible, une visite de l'hémicycle départemental afin de découvrir le rôle d'une assemblée délibérante et la construction de la décision politique."
+          ]
+        },
+        {
+          "id": "axe2_a2",
+          "title": "Développer des actions de sensibilisation et de prévention sanitaire",
+          "details": [
+            "Organiser des ateliers sur le rôle du petit-déjeuner, l'hygiène, le sommeil et les addictions numériques. Proposer deux matinées de petits-déjeuners gratuits pour les 6e, accompagner les campagnes de vaccination (papillomavirus, méningite), conduire l'éducation à la vie affective et sexuelle (EVARS), mettre en œuvre l'intervention d'étudiants en médecine sur la santé publique et sensibiliser à la précarité menstruelle."
+          ]
+        },
+        {
+          "id": "axe2_a3",
+          "title": "Réduire le gaspillage alimentaire",
+          "details": [
+            "Développer les dispositifs existants au restaurant scolaire en pesant quotidiennement ou hebdomadairement le pain et les déchets alimentaires, puis en communiquant ces résultats aux élèves pour responsabiliser la communauté scolaire."
+          ]
+        },
+        {
+          "id": "axe2_a4",
+          "title": "Animer des ateliers en Histoire pour les 3èmes",
+          "details": [
+            "Proposer l'atelier « Mémoires et Résistances » (musée de la Résistance, Camp des Milles, Festival du Film) afin de questionner les régimes totalitaires et les formes d'engagement citoyen. Proposer « Bulles de Mémoire » pour croiser mémoire, histoire et création artistique sur les conflits mondiaux."
+          ]
+        },
+        {
+          "id": "axe2_a5",
+          "title": "Accompagner les élèves dans l'obtention de l'ASSR et du PSC1",
+          "details": [
+            "Préparer l'ASSR 1 & 2 en 5e et 3e grâce à des entraînements en informatique, et former gratuitement les élèves et les adultes volontaires aux premiers secours (PSC1)."
+          ]
+        },
+        {
+          "id": "axe2_a6",
+          "title": "Présenter les élèves UPE2A au DELF",
+          "details": [
+            "Accompagner les élèves allophones vers la maîtrise du français à l'oral et à l'écrit, première étape vers l'intégration linguistique et, à long terme, vers une insertion citoyenne et sociale réussie."
           ]
         }
       ]
     },
-	 {
-      "title": "Respecter les règles de vie en société",
+    {
+      "title": "Respecter les règles de vie en société et favoriser la justice sociale",
       "actions": [
         {
           "id": "axe2_b1",
-          "title": "Intitulé de l’action",
+          "title": "Développer l'adhésion aux valeurs de la République",
           "details": [
-            "…"
+            "Sensibiliser à l'égalité filles-garçons, à la lutte contre les discriminations et aux principes de non-violence et de respect mutuel. Intégrer ces actions à la vie de l'établissement."
+          ]
+        },
+        {
+          "id": "axe2_b2",
+          "title": "Décliner des actions citoyennes fédératrices",
+          "details": [
+            "Développer la journée de l'élégance afin de réfléchir au savoir-être (tenue, langage), organiser un défilé pour valoriser la participation des élèves. Faire découvrir l'institution judiciaire aux 4e par une visite de tribunal ou l'intervention de professionnels du droit, et participer à l'exposition « 13–18 Ado & Citoyen » (Protection judiciaire de la jeunesse) pour comprendre les droits et devoirs des mineurs."
+          ]
+        },
+        {
+          "id": "axe2_b3",
+          "title": "Ponctuer l'année scolaire de semaines de valeurs républicaines",
+          "details": [
+            "Mettre en avant une valeur républicaine durant des semaines dédiées : Laïcité (9 décembre), Égalité (8 mars), Fraternité (collecte / cross du collège), Liberté (3 mai – liberté de la presse). Mobiliser les disciplines, le CVC, les délégués et les partenaires."
+          ]
+        },
+        {
+          "id": "axe2_b4",
+          "title": "Porter les valeurs du sport",
+          "details": [
+            "Favoriser la pratique sportive et l'adhésion à l'UNSS, et développer l'apprentissage du savoir-nager, compétence essentielle pour la sécurité et la santé."
+          ]
+        },
+        {
+          "id": "axe2_b5",
+          "title": "Enseigner les mesures de responsabilisation",
+          "details": [
+            "Mettre à disposition du matériel de nettoyage dans chaque salle et responsabiliser les élèves sur la propreté des espaces, le respect du mobilier et le rôle des agents."
           ]
         }
       ]
     },
-	 {
-      "title": "S'engager dans la vie au collège",
+    {
+      "title": "S'engager et développer des actions coopératives et solidaires",
       "actions": [
         {
           "id": "axe2_c1",
-          "title": "Intitulé de l’action",
+          "title": "Ouvrir des classes coopératives",
           "details": [
-            "…"
+            "Développer des classes coopératives fondées sur l'entraide, le tutorat, l'organisation en groupes de responsabilité, la gestion collective du matériel et des médiations élèves. Encourager la prise d'initiative et la coopération au service du climat scolaire."
+          ]
+        },
+        {
+          "id": "axe2_c2",
+          "title": "Organiser des concours et des projets collectifs collaboratifs et/ou solidaires",
+          "details": [
+            "Participer à des concours scientifiques ou créatifs (Eurêka, CGénial, Drôle 2 Maths…) afin de stimuler l'esprit d'équipe, la recherche et le partage de connaissances."
+          ]
+        },
+        {
+          "id": "axe2_c3",
+          "title": "Faire collaborer les élèves autour d'initiatives citoyennes",
+          "details": [
+            "Mettre en scène la vie démocratique lors des élections de délégués de classe (campagne, affiches, isoloirs). Élire des éco-délégués, des ambassadeurs égalité filles-garçons, des ambassadeurs PHARE, des ASSEC et mobiliser le FSE afin d'encourager l'engagement des élèves."
+          ]
+        },
+        {
+          "id": "axe2_c4",
+          "title": "Organiser la médiation entre pairs",
+          "details": [
+            "Généraliser le fonctionnement coopératif pour créer une instance de médiation entre élèves, permettant la gestion apaisée des conflits et la responsabilisation des pairs."
+          ]
+        },
+        {
+          "id": "axe2_c5",
+          "title": "Organiser le partage et le vivre-ensemble",
+          "details": [
+            "Organiser des actions solidaires et festives (ventes, vide-greniers, tombolas UNSS, cross du collège) afin de renforcer la cohésion entre élèves, familles et personnels."
+          ]
+        },
+        {
+          "id": "axe2_c6",
+          "title": "Faire vivre le CVC",
+          "details": [
+            "S'appuyer sur le Conseil de la Vie Collégienne pour mener des projets citoyens tels que « Votre semaine du goût » (choix des menus), journée déguisement, ou d'autres actions co-construites avec les élèves."
+          ]
+        },
+		{
+          "id": "axe2_c7",
+          "title": "Développer le tri sélectif",
+          "details": [
+            "Finaliser le tri sélectif dans l'établissement en équipant les salles de deux poubelles, en sensibilisant au tri et en impliquant les éco-délégués."
           ]
         }
       ]
     },
-	 {
-      "title": "S'informer de manière rigoureuse",
+    {
+      "title": "Décrypter l'information pour mieux comprendre le monde",
       "actions": [
         {
           "id": "axe2_d1",
-          "title": "Intitulé de l’action",
+          "title": "Participer à la semaine de la presse",
           "details": [
-            "…"
+            "Participer à la Semaine de la presse et des médias pour analyser le rôle des journalistes, comprendre le fonctionnement des médias et développer l'esprit critique."
+          ]
+        },
+        {
+          "id": "axe2_d2",
+          "title": "Sensibiliser au phénomène de désinformation",
+          "details": [
+            "Réaliser des ateliers de vérification des sources, d'analyse de rumeurs et de fact-checking, et utiliser des exemples adaptés aux usages adolescents."
+          ]
+        },
+        {
+          "id": "axe2_d3",
+          "title": "Sensibiliser à l'exposition aux réseaux sociaux",
+          "details": [
+            "Informer sur les usages des réseaux, l'image numérique, le cyberharcèlement, la protection des données et les effets de l'hyper-connexion."
+          ]
+        },
+		{
+          "id": "axe2_d4",
+          "title": "Sensibiliser aux campagnes d'affichage",
+          "details": [
+            "Analyser des affiches publicitaires ou militantes pour identifier les stratégies de persuasion, les messages implicites et la construction de l'opinion."
+          ]
+        },
+		{
+          "id": "axe2_d5",
+          "title": "Diversifier les activités multimédias",
+          "details": [
+            "Mettre en place un club média, réaliser des podcasts, alimenter un blog ou un réseau social du collège pour développer l'expression, la créativité et la culture de l'information."
           ]
         }
       ]
     },
-	 {
+    {
       "title": "Promouvoir la différence",
       "actions": [
         {
           "id": "axe2_e1",
-          "title": "Intitulé de l’action",
+          "title": "Organiser des échanges culturels avec d'autres pays",
           "details": [
-            "…"
+            "Reconduire des échanges culturels en Italie (5e–4e) afin de découvrir une culture voisine et vivre une expérience linguistique."
+          ]
+        },
+        {
+          "id": "axe2_e2",
+          "title": "Découvrir un pays à travers ses traditions",
+          "details": [
+            "Reconduire le projet « Balades printanières » pour découvrir un pays par ses traditions culinaires."
+          ]
+        },
+        {
+          "id": "axe2_e3",
+          "title": "Développer des actions solidaires",
+          "details": [
+            "Participer à des événements solidaires (Téléthon, Banque Alimentaire 06, Secours Populaire…) pour renforcer l'engagement citoyen."
+          ]
+        },
+        {
+          "id": "axe2_e4",
+          "title": "Assurer des cours de LSF pour les élèves et adultes non-malentendants",
+          "details": [
+            "Proposer une initiation à la Langue des Signes Française afin de sensibiliser à l'inclusion, à la communication non verbale et à la diversité des modes de communication."
+          ]
+        },
+        {
+          "id": "axe2_e5",
+          "title": "Faire découvrir le handisport",
+          "details": [
+            "Faire découvrir le handisport dans le cadre des classes Sport+ (6e/5e) et du projet Ac'Éduc, notamment à travers l'initiation au torball (association ANICES) et au handi-tennis (Comité départemental de tennis), afin de sensibiliser les élèves à l'inclusion et à la diversité des pratiques sportives."
           ]
         }
       ]

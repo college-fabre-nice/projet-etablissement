@@ -110,7 +110,7 @@ h1 {
 
 .header-logo-left,
 .header-logo-right {
-    flex: 0 0 auto;
+    /* flex inutile ici car parent en grid, mais laissé pour compatibilité éventuelle */
 }
 
 .logo-college,
@@ -186,7 +186,7 @@ h1 {
     z-index: 3;
 }
 
-/* L’onglet actif "efface" la ligne juste sous lui */
+/* L’onglet actif efface la ligne juste sous lui */
 .tab-btn.active::after {
     content: "";
     position: absolute;
@@ -226,7 +226,7 @@ h1 {
     display: block;
 }
 
-/* Titre d’axe masqué (le texte est déjà dans les onglets) */
+/* Titre d’axe masqué (texte déjà présent dans les onglets) */
 .axis-title {
     display: none;
     font-weight: 700;
@@ -244,16 +244,11 @@ h1 {
 
 /* ============= COLONNES OBJECTIFS ============= */
 
-/* Par défaut : 5 colonnes (axes 2 et 3) */
+/* Desktop : 5 colonnes pour tous les axes */
 .columns {
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 1.2rem;
-}
-
-/* Axe 1 : 6 objectifs → 6 colonnes */
-#axe1 .columns {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .objective {
@@ -403,16 +398,12 @@ h1 {
     overflow: auto;
     padding-right: 0.25rem;
     font-size: 0.9rem;
-    line-height: 1.5;
-}
-
-.modal-body ul {
-    margin: 0.3rem 0 0 1.2rem;
-    padding-left: 0;
-}
-
-.modal-body li {
-    margin-bottom: 0.35rem;
+    line-height: 1.45;
+    text-align: justify;
+    text-justify: inter-word;
+	/* hyphens: auto; */
+    /* -webkit-hyphens: auto; */
+    /* -ms-hyphens: auto; */
 }
 
 /* ============= RESPONSIVE ============= */
@@ -498,7 +489,7 @@ h1 {
 /* Mobile : colonnes empilées + densité légèrement resserrée */
 @media (max-width: 700px) {
 
-    /* densité un peu plus compacte */
+    /* densité typographique légèrement plus compacte */
     body {
         line-height: 1.4;
     }
@@ -519,10 +510,7 @@ h1 {
     }
 
     /* une seule colonne pleine largeur pour tous les axes */
-    .columns,
-    #axe1 .columns,
-    #axe2 .columns,
-    #axe3 .columns {
+    .columns {
         grid-template-columns: 1fr;
         gap: 1rem;
     }
@@ -546,6 +534,6 @@ h1 {
 
     .modal-body {
         font-size: 0.88rem;
-        line-height: 1.45;
+        line-height: 1.35;   /* plus dense sur mobile */
     }
 }
