@@ -488,14 +488,33 @@ h1 {
 
 /* ============= OBJECTIF SÉLECTIONNÉ ============= */
 
+/* Objectif sélectionné */
 .objective--highlighted .objective-title {
     outline: 2px solid #000091;
     outline-offset: 2px;
 }
 
+/* Actions du même objectif */
 .objective--highlighted .action-bubble {
     background-color: #fffde7;
-    border-color: #f9a825;
+    border-color: #e5d07a; /* jaune plus doux, moins "accent" */
+}
+
+/* Action sélectionnée = même couleur que la barre gauche de l’objectif */
+
+#axe1 .action-bubble--selected {
+    border: 2px solid var(--axis1-light); /* ou #e8691f si tu veux le hex direct */
+    background-color: #fff8e1;
+}
+
+#axe2 .action-bubble--selected {
+    border: 2px solid var(--axis2-light); /* ou #0059b3 */
+    background-color: #fff8e1;
+}
+
+#axe3 .action-bubble--selected {
+    border: 2px solid #4a9e5c; /* Axe3 a déjà une barre custom non variable */
+    background-color: #fff8e1;
 }
 
 /* Mobile : colonnes empilées + densité légèrement resserrée */

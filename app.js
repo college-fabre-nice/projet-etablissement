@@ -224,4 +224,66 @@ document.addEventListener("DOMContentLoaded", async () => {
 
     // Construire le contenu des axes avec la fonction openModal définie ci-dessus
     buildAxesContent(openModal);
+	
+	 // Initialiser le surlignage des objectifs (maintenant qu'ils existent dans le DOM)
+    initObjectiveHighlighting();
 });
+
+// === Mise en évidence des actions liées à un objectif ===
+
+function initObjectiveHighlighting() {
+  const titles = document.querySelectorAll(".objective-title");
+  const actions = document.querySelectorAll(".action-bubble");
+
+  if (!titles.length) {
+    console.log("Aucun .objective-title trouvé pour le surlignage.");
+    return;
+  }
+
+  // Efface toutes les surbrillances
+  const clearHighlight = () => {
+    document
+      .querySelectorAll(".objective--highlighted")
+      .forEach((el) => el.classList.remove("objective--highlighted"));
+
+    document
+      .querySelectorAll(".action-bubble--selected")
+      .forEach((el) => el.classList.remove("action-bubble--selected"));
+  };
+
+  // Clic sur une bulle d'objectif
+  titles.forEach((title) => {
+    title.style.cursor = "pointer";
+
+    title.addEventListener("click", () => {
+      const objective = title.closest(".objective");
+      if (!objective) return;
+
+      const alreadyHighlighted =
+        objective.classList.contains("objective--highlighted");
+
+      clearHighlight();
+
+      // On laisse la possibilité de "désélectionner" en recliquant
+      if (!alreadyHighlighted) {
+        objective.classList.add("objective--highlighted");
+      }
+    });
+  });
+
+  // Clic sur une bulle d'action
+  actions.forEach((bubble) => {
+    bubble.addEventListener("click", () => {
+      const objective = bubble.closest(".objective");
+      clearHighlight();
+
+      if (objective) {
+        objective.classList.add("objective--highlighted");
+      }
+      bubble.classList.add("action-bubble--selected");
+    });
+  });
+}
+
+
+
