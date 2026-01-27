@@ -555,25 +555,25 @@ h1 {
         line-height: 1.35;
     }
 
-    /* Modale : comportement mobile plus fiable */
+ /* Modale : centrée verticalement sur mobile */
     .modal-backdrop {
-        align-items: flex-start;      /* plus de centrage vertical, on part du haut */
-        padding: 0.75rem;
-        overflow-y: auto;             /* si contenu très long, on peut scroller */
+        align-items: center;        /* au lieu de flex-start */
+        padding: 1rem;              /* un peu d’air autour */
+        overflow-y: auto;           /* si contenu très long, on scrolle */
     }
 
     .modal {
         max-width: 100%;
         width: 100%;
-        max-height: 85vh;                     /* fallback */
-        max-height: calc(100dvh - 1.5rem);    /* hauteur réelle écran - petite marge */
-        margin-top: 0.75rem;
-        height: auto;                         /* plus de 100vh qui bug sur Android */
+        max-height: 85vh;                     /* limite de hauteur */
+        max-height: calc(100dvh - 2rem);      /* hauteur réelle écran - marges */
+        margin-top: 0;                        /* on enlève le décalage en haut */
+        height: auto;
         border-radius: 10px;
     }
 
     .modal-body {
         font-size: 0.88rem;
-        line-height: 1.35;   /* plus dense sur mobile */
+        line-height: 1.35;
     }
 }
