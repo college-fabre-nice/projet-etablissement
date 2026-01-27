@@ -486,6 +486,18 @@ h1 {
     }
 }
 
+/* ============= OBJECTIF SÉLECTIONNÉ ============= */
+
+.objective--highlighted .objective-title {
+    outline: 2px solid #000091;
+    outline-offset: 2px;
+}
+
+.objective--highlighted .action-bubble {
+    background-color: #fffde7;
+    border-color: #f9a825;
+}
+
 /* Mobile : colonnes empilées + densité légèrement resserrée */
 @media (max-width: 700px) {
 
