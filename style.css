@@ -524,12 +524,21 @@ h1 {
         line-height: 1.35;
     }
 
+    /* Modale : comportement mobile plus fiable */
+    .modal-backdrop {
+        align-items: flex-start;      /* plus de centrage vertical, on part du haut */
+        padding: 0.75rem;
+        overflow-y: auto;             /* si contenu très long, on peut scroller */
+    }
+
     .modal {
         max-width: 100%;
         width: 100%;
-        max-height: 100vh;
-        height: 100vh;
-        border-radius: 0;
+        max-height: 85vh;                     /* fallback */
+        max-height: calc(100dvh - 1.5rem);    /* hauteur réelle écran - petite marge */
+        margin-top: 0.75rem;
+        height: auto;                         /* plus de 100vh qui bug sur Android */
+        border-radius: 10px;
     }
 
     .modal-body {
